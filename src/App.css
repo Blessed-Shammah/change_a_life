@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.payment-box {
+  background: #1e3c72;
+  border-radius: 15px;
+  /* padding: 1.5rem; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.payment-box:hover {
+  transform: translateY(-5px);
+}
+
+
+.qr-code {
+  width: auto;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px;
+  /* margin-bottom: 1.25rem; */
+  border: 1px solid #e46c1c;
+}
+
+.pay-button {
+  display: inline-block;
+  margin-top: 1rem;  /* Ensures space from QR image */
+  padding: 0.75rem 1.5rem;
+  background-color: #f0b90b;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.pay-button:hover {
+  background-color: #d9a406;
+}
+
+/* Tablet and up */
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
