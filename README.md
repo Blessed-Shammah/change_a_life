@@ -1,12 +1,75 @@
-# React + Vite
+Here’s a simple and clean `README.md` you can use for your React crypto payment project:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+```markdown
+# 🪙 Crypto Payment Page (Binance Pay)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a simple React app that allows users to pay with crypto using a Binance Pay QR code.
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Users can:
+- View a QR code to pay $10 in USDT via Binance Pay
+- Click the "Pay Now" button to be redirected to the Binance Pay link
+
+## 🚀 Features
+
+- Fully responsive design (works on mobile, tablet, and desktop)
+- Styled with a modern gradient background
+- Clear payment call-to-action
+- Easy to customize with your own QR and link
+
+## 🧑‍💻 How to Use
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/crypto-payment-page.git
+cd crypto-payment-page
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+```
+
+3. **Start the app**
+
+```bash
+npm start
+```
+
+4. **Replace the following in `App.js`:**
+   - Replace `binance_free.jpeg` with your own QR image inside the `public` folder.
+   - Replace the Binance Pay link (`https://app.binance.com/qr/...`) with your own.
+
+## 🛠 Tech Stack
+
+- React
+- HTML & CSS
+- JSX
+
+## 📁 File Structure
+
+```
+src/
+  App.js
+  App.css
+public/
+  binance_free.jpeg
+```
+
+## 🌐 Live Demo
+
+Coming soon...
+
+## 📄 License
+
+This project is open-sourced under the MIT License.
+```
+
+---
+
+Let me know if you want to include deployment steps (e.g. for Vercel or Netlify), or turn this into a reusable widget you can embed on any site.
