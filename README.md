@@ -1,8 +1,3 @@
-Here’s a simple and clean `README.md` you can use for your React crypto payment project:
-
----
-
-```markdown
 # 🪙 Crypto Payment Page (Binance Pay)
 
 This is a simple React app that allows users to pay with crypto using a Binance Pay QR code.
@@ -68,8 +63,3 @@ Coming soon...
 ## 📄 License
 
 This project is open-sourced under the MIT License.
-```
-
----
-
-Let me know if you want to include deployment steps (e.g. for Vercel or Netlify), or turn this into a reusable widget you can embed on any site.
